@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    padding: 20px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 600px;
+    height: 600px;   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+}
+
+.square {
+    background-color: white;
+    border: solid black 0.5px;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.options-container {
+    display: flex;
+    padding: 40px;
+    width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+button {
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 6px;
+    border: 1px black solid;
+    color: black;
+    background-color: lightgray;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+button:active {
+    cursor: pointer;
+}
+
+.chosen {
+    color: lightgray; 
+    background-color: black;
+}
