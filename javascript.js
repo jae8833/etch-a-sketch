@@ -86,7 +86,8 @@ gridSizeSlider.addEventListener('mousemove', (e) => {
 
 gridSizeSlider.addEventListener('change', (e) => {
     gridContainer.innerHTML = "";
-    setUpGrid(e.target.value);
+    boxesPerRowCol = e.target.value;
+    setUpGrid(boxesPerRowCol);
 });
 
 
