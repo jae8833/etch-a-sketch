@@ -6,4 +6,4 @@ A frontend application that allows the user to draw on a dynamically sized board
 
 ## Link to Website
 
-[(https://jae8833.github.io/etch-a-sketch/)](https://external.ink?to=jae8833.github.io/etch-a-sketch/)
+[https://jae8833.github.io/etch-a-sketch/](https://jae8833.github.io/etch-a-sketch/)
